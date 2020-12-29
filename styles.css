@@ -1,5 +1,119 @@
-h1 {
+/* 1) .class1 .class2 DESCENDANT SELECTOR */
+/* .parent .class2 {
+  background: lightblue;
+} */
+
+
+/* ************************************ */
+/* 2) .class1.class2 */
+/* Example 1- note how nothing will be selected */
+/* .parent.class2 {
+  background: lightblue;
+} */
+
+/* Example2- this element will be blue */
+/* .class1.class2 {
+  background: lightblue;
+} */
+
+
+/* ************************************ */
+/* 3)  POSITION RELATIVE VS ABSOLUTE */
+
+/* .parent {
+  background: lightblue;
+  margin-top: 10px;
+  width: 90%;
+  position: relative;
+}
+
+.child-one {
+  background: lightgreen;
+  position: absolute;
+  top: 0;
+}
+
+.child-two {
+  background: lightcoral;
+}
+
+.child-three {
+  background: lightgrey;
+} */
+
+
+/* ************************************ */
+/* 4)  CSS SPECIFICITY */
+/* Example 1 */
+/* .class2 {
+  background: lightgreen;
+}
+
+.class1 {
+  background: lightblue;
+} */
+
+
+/* Example 2 */
+/* div .class1 {
+  background: lightblue;
+}
+
+.class1 {
+  background: lightgreen;
+} */
+
+
+/* Example 3 */
+/* .parent .class1 {
+  background: lightblue;
+}
+
+div .class1 {
+  background: lightgreen;
+} */
+
+
+/* Example 4 */
+/* .parent div {
+  background: lightblue;
+}
+
+div .class1 {
+  background: lightgreen;
+} */
+
+
+/* Example 5 */
+/* #parent-id div {
+  background: lightblue;
+}
+
+div .class1 {
+  background: lightgreen;
+} */
+
+
+/* Example 6 */
+/* #parent-id div {
+  background: lightblue;
+}
+
+#child-id {
+  background: lightgreen;
+} */
+
+
+/* Example 7 */
+.example {
+  color: yellow;
+}
+ul li a {
+  color: blue;
+}
+ul a {
+  color: green;
+}
+a {
   color: red;
-  background-color: yellow;
-  border: 1px solid black;
 }

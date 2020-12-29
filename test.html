@@ -6,6 +6,62 @@
   </head>
 
   <body>
+    <!-- 1) .class1 .class2 DESCENDANT SELECTOR -->
+    <!--     
+    <div class="parent">
+      <div>
+        <li class="class2">one</li>
+      </div>
+      
+      <li class="class2">two</li>
+      <li class="class2">three</li>
+    </div> 
+    -->
     
+    
+    <!-- ************************************* -->
+    <!-- 2) .class1.class2 -->
+    <!-- Example 1 -->
+    <!-- 
+    <div class="parent">
+      <div>
+        <li class="class2">one</li>
+      </div>
+      
+      <li class="class2">two</li>
+      <li class="class2">three</li>
+    </div>  
+    -->
+
+    <!-- Example 2 -->
+    <!-- <p class="class1 class2 class3">goodbye world</p> -->
+
+
+    <!-- ************************************* -->
+    <!-- 3) POSITION RELATIVE VS ABSOLUTE -->
+    <!-- 
+    <div class="parent">
+      Parent
+      <div class="child-one child">One</div>
+      <div class="child-two child">Two</div>
+      <div class="child-three child">Three</div>
+    </div> 
+    -->
+
+
+    <!-- ************************************* -->
+    <!-- 4) CSS SPECIFICITY -->
+    <div class="parent" id="parent-id">
+      Parent
+      <div id="child-id" class="class1 class2">One</div>
+    </div>
+
+    <!-- Example 7 only -->
+    <ul>
+      <li><a href="#" class="example">link</a></li>
+      <li>list item</li>
+      <li>list item</li>
+    </ul>
+
   </body>
 </html>
