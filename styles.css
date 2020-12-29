@@ -136,3 +136,17 @@ a {
 
 
 
+/* ************************************ */
+/* 5)  CSS3 FLEXBOX */
+.header-wrap {
+  background: lightgrey;
+  height: 100px;
+  display: flex;
+  justify-content: center;
+}
+
+.header {
+  background: lightblue;
+  height: 100px;
+  width: 500px;
+}
