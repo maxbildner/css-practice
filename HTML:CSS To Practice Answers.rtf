@@ -4,19 +4,19 @@
 }
 {\colortbl;\red255\green255\blue255;\red0\green0\blue233;\red109\green109\blue109;\red255\green255\blue255;
 \red71\green137\blue205;\red202\green202\blue202;\red141\green212\blue254;\red194\green126\blue101;\red202\green202\blue202;
-\red0\green0\blue0;\red255\green255\blue255;\red251\green0\blue7;\red255\green255\blue255;\red251\green0\blue7;
-\red255\green255\blue255;\red0\green0\blue109;\red246\green246\blue246;\red44\green44\blue44;\red14\green110\blue109;
-\red210\green0\blue53;\red85\green138\blue3;\red234\green234\blue234;\red135\green135\blue135;\red38\green38\blue38;
-\red133\green0\blue67;\red36\green255\blue255;\red255\green255\blue254;}
+\red0\green0\blue0;\red255\green255\blue255;\red251\green0\blue7;\red255\green255\blue255;\red255\green255\blue255;
+\red251\green0\blue7;\red255\green255\blue255;\red0\green0\blue109;\red246\green246\blue246;\red44\green44\blue44;
+\red14\green110\blue109;\red210\green0\blue53;\red85\green138\blue3;\red234\green234\blue234;\red135\green135\blue135;
+\red38\green38\blue38;\red133\green0\blue67;\red36\green255\blue255;\red255\green255\blue254;}
 {\*\expandedcolortbl;;\cssrgb\c0\c0\c93333;\cssrgb\c50251\c50251\c50189;\cssrgb\c100000\c100000\c100000\c0;
 \cssrgb\c33936\c61427\c84130;\cssrgb\c83229\c83229\c83125;\cssrgb\c61361\c86489\c99746;\cssrgb\c80778\c56830\c46925;\cssrgb\c83137\c83137\c83137;
-\cssrgb\c0\c1\c1;\cssrgb\c100000\c100000\c99985\c0;\cssrgb\c100000\c12195\c0;\cssrgb\c100000\c100000\c99910\c0;\cssrgb\c100000\c12195\c0;
-\cssrgb\c100000\c100000\c99970\c0;\cssrgb\c0\c0\c50196;\cssrgb\c97255\c97255\c97255;\cssrgb\c22745\c22745\c22745;\cssrgb\c0\c50196\c50196;
-\cssrgb\c86667\c6667\c26667;\cssrgb\c40000\c60000\c0;\cssrgb\c93333\c93333\c93333;\cssrgb\c60000\c60000\c60000;\cssrgb\c20000\c20000\c20000;
-\cssrgb\c60000\c0\c33333;\cssrgb\c4983\c100000\c100000;\cssrgb\c100000\c100000\c99833\c0;}
+\cssrgb\c0\c1\c1;\cssrgb\c100000\c100000\c99985\c0;\cssrgb\c100000\c12195\c0;\cssrgb\c100000\c100000\c99910\c0;\cssrgb\c100000\c100000\c99970\c0;
+\cssrgb\c100000\c12195\c0;\cssrgb\c100000\c100000\c99970\c0;\cssrgb\c0\c0\c50196;\cssrgb\c97255\c97255\c97255;\cssrgb\c22745\c22745\c22745;
+\cssrgb\c0\c50196\c50196;\cssrgb\c86667\c6667\c26667;\cssrgb\c40000\c60000\c0;\cssrgb\c93333\c93333\c93333;\cssrgb\c60000\c60000\c60000;
+\cssrgb\c20000\c20000\c20000;\cssrgb\c60000\c0\c33333;\cssrgb\c4983\c100000\c100000;\cssrgb\c100000\c100000\c99833\c0;}
 {\*\listtable{\list\listtemplateid1\listhybrid{\listlevel\levelnfc23\levelnfcn23\leveljc0\leveljcn0\levelfollow0\levelstartat1\levelspace360\levelindent0{\*\levelmarker \{none\}.}{\leveltext\leveltemplateid1\'01.;}{\levelnumbers;}\fi-360\li720\lin720 }{\listname ;}\listid1}}
 {\*\listoverridetable{\listoverride\listid1\listoverridecount0\ls1}}
-\margl1440\margr1440\vieww15020\viewh19880\viewkind0
+\margl1440\margr1440\vieww15020\viewh13640\viewkind0
 \pard\tx720\tx1440\tx2160\tx2880\tx3600\tx4320\tx5040\tx5760\tx6480\tx7200\tx7920\tx8640\pardirnatural\partightenfactor0
 
 \f0\fs28 \cf0 HTML/CSS To PRACTICE\
@@ -72,13 +72,13 @@ ex. \
 https://www.youtube.com/watch?v=jx5jmI0UlXU\
 https://developer.mozilla.org/en-US/docs/Web/CSS/position\
 	- 
-\f3\b \ul position static
-\f0\b0 \ulnone  = default position (when we don\'92t set anything)\cf14 \cb15 \
+\f3\b \cf10 \cb11 \ul \ulc10 position static
+\f0\b0 \cf10 \cb11 \ulnone  = default position (when we don\'92t set anything)\cf12 \cb14 \
 \cf10 \cb11 		- top, right, bottom, left, and z-index don\'92t work\
 		- position things based on whatever comes first in the document flow\
 	- 
-\f3\b \ul position relative
-\f0\b0 \ulnone \
+\f3\b \cf10 \cb11 \ul \ulc10 position relative
+\f0\b0 \cf10 \cb11 \ulnone \
 		- position an element based on its current position without changing layout\
 		- same as position static except we can now do top, right, bottom, left, and z-index\
 		- element is positioned to the normal flow of the document, then offset relative to itself\
@@ -87,8 +87,8 @@ https://developer.mozilla.org/en-US/docs/Web/CSS/position\
 		- does not affect the position of any other elements\
 		- note* position relative is not normally used for positioning top/left/right/bottom\
 	- 
-\f3\b \ul position absolute
-\f0\b0 \ulnone \
+\f3\b \cf10 \cb11 \ul \ulc10 position absolute
+\f0\b0 \cf10 \cb11 \ulnone \
 		- element is removed from the normal document flow\
 		- positioned relative to its closest positioned ancestor (relative or absolute ancestor)\
 		- can now do top, right, bottom, left, and z-index\
@@ -108,7 +108,8 @@ https://www.youtube.com/watch?v=CHyPGSpIhSs\
 \
 7) .class1.class2  vs  .class1 .class2\
 https://stackoverflow.com/questions/17391364/what-is-the-difference-between-the-selectors-class-class-and-class-class\
-	.class1 .class2 = Descendant Selector\
+http://www.css-tricks.com/multiple-class-id-selectors.com\
+	.class1 .class2 = \cf15 \cb16 Descendant Selector\cf10 \cb11 \
 		- selects all elements with \'93class2\'94 that are descendants of an element with name \'93class1\'94\
 		- first selector (class1) represents ancestor/parent element \
 		- will select all elements with \'93class2\'94 regardless of nesting\
@@ -122,16 +123,18 @@ https://stackoverflow.com/questions/17391364/what-is-the-difference-between-the-
 				<li> three </li>\
 			<div>	\
 		select all li inside class \'93parent\'94\
+\pard\tx720\tx1440\tx2160\tx2880\tx3600\tx4320\tx5040\tx5760\tx6480\tx7200\tx7920\tx8640\pardirnatural\partightenfactor0
 
-\f4\i 		.parent li \{ \}
-\f0\i0 \
+\f4\i \cf10 \cb11 		.parent li \{ \}
+\f0\i0 \cf10 \cb11 \
 \
 \
 	.class1.class2 = \
 		- matches any element with both classes (order doesn\'92t matter) in its attribute\
+		- useful for overriding elements without using the !important\
 		ex.\
 		<div class=\'93class1 class2\'94>  <div>\
-\
+		\
 \
 \
 \
@@ -146,13 +149,13 @@ https://stackoverflow.com/questions/17391364/what-is-the-difference-between-the-
 Currently on? (Like a certain section/header\'85)\
 \pard\tx220\tx720\pardeftab720\li720\fi-720\sl400\partightenfactor0
 \ls1\ilvl0
-\f5\fs34 \cf16 \cb17 {\listtext	.	}\expnd0\expndtw0\kerning0
-<p\cf18  \cf19 id=\cf20 "tips"\cf16 >\cf18 Useful Tips Section\cf16 </p>\cf18 \cb1 \
-\ls1\ilvl0\cf16 \cb17 \kerning1\expnd0\expndtw0 {\listtext	.	}\expnd0\expndtw0\kerning0
-<a\cf18  \cf19 href=\cf20 "#tips"\cf16 >\cf18 Jump to Useful Tips Section\cf16 </a>
+\f5\fs34 \cf17 \cb18 {\listtext	.	}\expnd0\expndtw0\kerning0
+<p\cf19  \cf20 id=\cf21 "tips"\cf17 >\cf19 Useful Tips Section\cf17 </p>\cf19 \cb1 \
+\ls1\ilvl0\cf17 \cb18 \kerning1\expnd0\expndtw0 {\listtext	.	}\expnd0\expndtw0\kerning0
+<a\cf19  \cf20 href=\cf21 "#tips"\cf17 >\cf19 Jump to Useful Tips Section\cf17 </a>
 \f0\fs28 \cf10 \cb11 \kerning1\expnd0\expndtw0 \
 \pard\tx720\tx1440\tx2160\tx2880\tx3600\tx4320\tx5040\tx5760\tx6480\tx7200\tx7920\tx8640\pardirnatural\partightenfactor0
-\cf10 \
+\cf10 \cb11 \
 \
 \
 \
@@ -162,12 +165,12 @@ ex. I want all content tagged with h1 to be blue, blue is the property\
 ex. the below three properties/values are appleid to the h1 element\
 \pard\pardeftab720\sl480\partightenfactor0
 
-\fs32 \cf21 \cb22 \expnd0\expndtw0\kerning0
-h1 \cf23 \{\cf24 \
-  \cf25 color\cf23 :\cf24  blue\cf23 ;\cf24 \
-  \cf25 background-color\cf23 :\cf24  yellow\cf23 ;\cf24 \
-  \cf25 border\cf23 :\cf24  \cf25 1\cf24 px solid black\cf23 ;\cf24 \
-\cf23 \}
+\fs32 \cf22 \cb23 \expnd0\expndtw0\kerning0
+h1 \cf24 \{\cf25 \
+  \cf26 color\cf24 :\cf25  blue\cf24 ;\cf25 \
+  \cf26 background-color\cf24 :\cf25  yellow\cf24 ;\cf25 \
+  \cf26 border\cf24 :\cf25  \cf26 1\cf25 px solid black\cf24 ;\cf25 \
+\cf24 \}
 \fs28 \cf10 \cb11 \kerning1\expnd0\expndtw0 \
 \
 \
@@ -202,7 +205,7 @@ ex. i want all content with h1 to be blue. h1 is the selector\
 \
 Types of Selectors\
 \pard\tx720\tx1440\tx2160\tx2880\tx3600\tx4320\tx5040\tx5760\tx6480\tx7200\tx7920\tx8640\pardirnatural\partightenfactor0
-\cf26 \cb27 1 Type\cf10 \cb11 \
+\cf27 \cb28 1 Type\cf10 \cb11 \
 - selects an element of the specified type based on the html element\
 ex. the \'91p\'92 below is the paragraph type selector\
 \pard\tx720\tx1440\tx2160\tx2880\tx3600\tx4320\tx5040\tx5760\tx6480\tx7200\tx7920\tx8640\pardirnatural\partightenfactor0
@@ -218,7 +221,7 @@ on the html doc:\
 \
 2. Types of Selectors\
 \pard\tx720\tx1440\tx2160\tx2880\tx3600\tx4320\tx5040\tx5760\tx6480\tx7200\tx7920\tx8640\pardirnatural\partightenfactor0
-\cf26 \cb27 Class\cf10 \cb11 \
+\cf27 \cb28 Class\cf10 \cb11 \
 - selects an element with matching class attribute names. \
 - notice the preceding . dot (period)\
 - good for applying properties to many different elements on the same or multiple html pages\
@@ -234,8 +237,8 @@ on the html doc:\
 \
 \
 \pard\tx720\tx1440\tx2160\tx2880\tx3600\tx4320\tx5040\tx5760\tx6480\tx7200\tx7920\tx8640\pardirnatural\partightenfactor0
-\cf26 \cb13 3. Applying more than one class to the same attribute element\cf10 \cb11 \
-- just insert the class name in in the quotes of the html tag (with spaces inbetween multiple classes)\
+\cf27 \cb13 3. Applying more than one class to the same attribute element\cf10 \cb11 \
+- just insert the class name in in the quotes of the html tag (with spaces in between multiple classes)\
 \pard\tx720\tx1440\tx2160\tx2880\tx3600\tx4320\tx5040\tx5760\tx6480\tx7200\tx7920\tx8640\pardirnatural\partightenfactor0
 \cf12 \cb13 .thick \{\
 	font-weight: bold;\
@@ -243,6 +246,7 @@ on the html doc:\
 .alert \{\
 	color: grey;\
 \}\
+\pard\tx720\tx1440\tx2160\tx2880\tx3600\tx4320\tx5040\tx5760\tx6480\tx7200\tx7920\tx8640\pardirnatural\partightenfactor0
 \cf10 \cb11 on the html doc:\
 <span\cf12 \cb13  class=\'91thick alert\'92\cf10 \cb11 > I\'92m thick </span>\
 \
@@ -252,7 +256,7 @@ on the html doc:\
 \
 4. Types of Selectors\
 \pard\tx720\tx1440\tx2160\tx2880\tx3600\tx4320\tx5040\tx5760\tx6480\tx7200\tx7920\tx8640\pardirnatural\partightenfactor0
-\cf26 \cb27 ID\cf10 \cb11 \
+\cf27 \cb28 ID\cf10 \cb11 \
 - selects an element with matching id attribute name. \
 - notice the preceding # hashtag symbol\
 - a single id name should only be applied to one element per page\
@@ -270,7 +274,7 @@ on the html doc:\
 \
 5. Types of Selectors\
 \pard\tx720\tx1440\tx2160\tx2880\tx3600\tx4320\tx5040\tx5760\tx6480\tx7200\tx7920\tx8640\pardirnatural\partightenfactor0
-\cf26 \cb27 Compound\cf10 \cb11 \
+\cf27 \cb28 Compound\cf10 \cb11 \
 - selects all matched elements in the compound set. \
 - notice the , comma separating the selectors of the set\
 - each element within the comma separated list will be styled the same\
@@ -291,7 +295,7 @@ on the html doc:\
 \
 6. Types of Selectors\
 \pard\tx720\tx1440\tx2160\tx2880\tx3600\tx4320\tx5040\tx5760\tx6480\tx7200\tx7920\tx8640\pardirnatural\partightenfactor0
-\cf26 \cb27 Descendent\cf10 \cb11 \
+\cf27 \cb28 Descendent\cf10 \cb11 \
 - selects an element that is nested inside of the specified parent element\
 - notice the space \'91  \'91 between the parent and the child to be selected\
 ex. \
@@ -310,7 +314,7 @@ on the html doc:\
 \
 7 Types of Selectors\
 \pard\tx720\tx1440\tx2160\tx2880\tx3600\tx4320\tx5040\tx5760\tx6480\tx7200\tx7920\tx8640\pardirnatural\partightenfactor0
-\cf26 \cb27 Child\cf10 \cb11 \
+\cf27 \cb28 Child\cf10 \cb11 \
 - selects an element that is nested only one level deep inside of the specified parent element\
 - only selects direct children and not grandchildren\
 - notice the > greater than symbol between the parent and the child to be selected\
@@ -335,7 +339,7 @@ on the html doc:\
 \
 8. Types of Selectors\
 \pard\tx720\tx1440\tx2160\tx2880\tx3600\tx4320\tx5040\tx5760\tx6480\tx7200\tx7920\tx8640\pardirnatural\partightenfactor0
-\cf26 \cb27 Adjacent Sibling\cf10 \cb11 \
+\cf27 \cb28 Adjacent Sibling\cf10 \cb11 \
 - selects an element that appears directly after the former element assuming they\'92re both siblings\
 (same level of nesting)\
 - notice the + plus symbol between the parent and the former sibling and selected element\
@@ -356,7 +360,7 @@ on the html doc:\
 \
 9. Types of Selectors\
 \pard\tx720\tx1440\tx2160\tx2880\tx3600\tx4320\tx5040\tx5760\tx6480\tx7200\tx7920\tx8640\pardirnatural\partightenfactor0
-\cf26 \cb27 General Sibling\cf10 \cb11 \
+\cf27 \cb28 General Sibling\cf10 \cb11 \
 - selects all elements that appear directly after the former element. \
 - notice the ~ tilde symbol between the parent and the former sibling and selected element\
 ex. \
@@ -375,7 +379,7 @@ will be selected </p>\
 \
 10. Types of Selectors\
 \pard\tx720\tx1440\tx2160\tx2880\tx3600\tx4320\tx5040\tx5760\tx6480\tx7200\tx7920\tx8640\pardirnatural\partightenfactor0
-\cf26 \cb27 Universal\cf10 \cb11 \
+\cf27 \cb28 Universal\cf10 \cb11 \
 - selects elements where the properties specified have not been styled by any other selectors\
 - notice the * asterisk symbol \
 ex. \
@@ -393,7 +397,7 @@ on the html doc: (assuming you haven\'92t styled h5 anywhere else)\
 \
 11. Types of Selectors\
 \pard\tx720\tx1440\tx2160\tx2880\tx3600\tx4320\tx5040\tx5760\tx6480\tx7200\tx7920\tx8640\pardirnatural\partightenfactor0
-\cf26 \cb27 Attribute\cf10 \cb11 \
+\cf27 \cb28 Attribute\cf10 \cb11 \
 - selects an element with a  matching attribute value. \
 - square brackets\
 ex. \
@@ -410,7 +414,7 @@ on the html doc: \
 \
 12. Types of Selectors\
 \pard\tx720\tx1440\tx2160\tx2880\tx3600\tx4320\tx5040\tx5760\tx6480\tx7200\tx7920\tx8640\pardirnatural\partightenfactor0
-\cf26 \cb27 Pseudo Class\cf10 \cb11 \
+\cf27 \cb28 Pseudo Class\cf10 \cb11 \
 - selects elements based on the unique relationship or state described in the selector\
 - notice the : colon symbol, followed bye the pseudo class\
 - a:link selects links in their default state before the visitor has clicked it\

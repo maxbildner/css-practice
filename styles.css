@@ -1,3 +1,4 @@
+/* ************************************ */
 /* 1) .class1 .class2 DESCENDANT SELECTOR */
 /* .parent .class2 {
   background: lightblue;
@@ -13,33 +14,38 @@
 
 /* Example2- this element will be blue */
 /* .class1.class2 {
-  background: lightblue;
+  background: lightgreen;
 } */
+
 
 
 /* ************************************ */
 /* 3)  POSITION RELATIVE VS ABSOLUTE */
-
 /* .parent {
   background: lightblue;
-  margin-top: 10px;
-  width: 90%;
-  position: relative;
+  width: 500px;
+  margin-top:20px;
+  padding: 10px;
+}
+
+.parent2 {
+  background: lightseagreen;
+  padding: 10px;
 }
 
 .child-one {
   background: lightgreen;
-  position: absolute;
-  top: 0;
 }
 
 .child-two {
-  background: lightcoral;
+  background: lightpink;
 }
 
 .child-three {
   background: lightgrey;
 } */
+
+
 
 
 /* ************************************ */
@@ -85,6 +91,16 @@ div .class1 {
 
 
 /* Example 5 */
+/* div .class1 {
+  background: lightgreen;
+}
+
+.parent div {
+  background: lightblue;
+} */
+
+
+/* Example 6 */
 /* #parent-id div {
   background: lightblue;
 }
@@ -94,7 +110,7 @@ div .class1 {
 } */
 
 
-/* Example 6 */
+/* Example 7 */
 /* #parent-id div {
   background: lightblue;
 }
@@ -104,8 +120,8 @@ div .class1 {
 } */
 
 
-/* Example 7 */
-.example {
+/* Example 8 */
+/* .example {
   color: yellow;
 }
 ul li a {
@@ -116,4 +132,7 @@ ul a {
 }
 a {
   color: red;
-}
+} */
+
+
+
